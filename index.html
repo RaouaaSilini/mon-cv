@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raouaa Silini – CV numérique</title>
+  <meta name="description" content="CV numérique de Prénom Nom, étudiant à l’ISET Radès.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Navigation principale">
+    <a class="brand" href="#accueil">Raouaa Silini</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <ul class="menu" id="menu">
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#experiences">Expériences</a></li>
+      <li><a href="#parcours">Parcours</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ACCUEIL -->
+<section id="accueil" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <p class="role">Étudiante en Développement des Systèmes Embarqués et des applications mobiles · ISET Radès</p>
+      <h1>Je conçois des sites web clairs, rapides et utiles.</h1>
+      <p class="lead">Je m’appelle Raouaa Silini. Passionnée par le développement web , les bases de données, l'IOT et les systèmes embarqués , je cherche un stage de fin d’études pour progresser au sein d’une équipe technique.</p>
+      <p class="actions">
+        <a class="btn" href="#projets">Voir mes projets</a>
+        <a class="btn btn-ghost" href="#contact">Me contacter</a>
+      </p>
+      <ul class="tags"><li>HTML · CSS · JS</li><li>PHP · MySQL</li><li>Git · GitHub</li></ul>
+    </div>
+    <div class="photo">
+      <span class="initials" aria-hidden="true">RS</span>
+      <img src="images/photo.jpg" alt="Portrait de Raouaa Silini" onerror="this.style.display='none'">
+    </div>
+  </div>
+</section>
+
+<main>
+
+  <!-- COMPETENCES -->
+  <section id="competences">
+    <h2>Compétences acquises</h2>
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Compétences techniques</h3>
+        <ul class="bars">
+          <li><span>HTML et CSS</span><div><i style="--w:90%"></i></div></li>
+          <li><span>JavaScript</span><div><i style="--w:75%"></i></div></li>
+          <li><span>PHP et MySQL</span><div><i style="--w:90%"></i></div></li>
+          <li><span>Java et Python</span><div><i style="--w:90%"></i></div></li>
+          <li><span>Git et GitHub</span><div><i style="--w:60%"></i></div></li>
+          <li><span>Linux et réseaux</span><div><i style="--w:95%"></i></div></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Compétences transversales</h3>
+        <ul class="chips">
+          <li>Travail en équipe</li><li>Communication</li><li>Autonomie</li>
+          <li>Résolution de problèmes</li><li>Gestion du temps</li><li>Curiosité technique</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCES -->
+  <section id="experiences">
+    <h2>Expériences et stages</h2>
+    <ol class="timeline">
+      <li>
+        <p class="date">Janvier – Février 2024</p>
+        <h3>Stage d’initiation · Développemment d'application web · Sagemcom</h3>
+        <p>Conception d’une application de gestion de sécurité : entrée, sortie des camions, interface, base de données et authentification.</p>
+        <p class="tech">PHP, MySQL, HTML, CSS, JavaScript</p>
+      </li>
+      <li>
+        <p class="date">Janvier – Février 2025</p>
+        <h3>Stage perfectionnement · Smart Fridge · Actia</h3>
+        <p>Surveillance de la température et de l'activité de la porte du réfrigérateur puis l'envoi direct en temps réels des informations et des alertes au responsable sur téléphone et sur mail.</p>
+        <p class="tech">ESP32 , Blynk, C, Proteus</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PARCOURS -->
+  <section id="parcours">
+    <h2>Parcours académique</h2>
+    <ol class="timeline">
+      <li>
+        <p class="date">2024 – aujourd’hui</p>
+        <h3>Licence en Développement des Systèmes d’Information · ISET Radès</h3>
+        <p>Algorithmique, programmation web, bases de données, déploiement web, génie logiciel.</p>
+      </li>
+      <li>
+        <p class="date">2022</p>
+        <h3>Baccalauréat, section Sciences expérimentales · Lycée Pilote Hammem Linf</h3>
+        <p>Mention : Bien.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projets">
+    <h2>Projets</h2>
+    <div class="grid-3">
+      <article class="card">
+        <h3>Ce site : CV numérique</h3>
+        <p>Site statique responsive, versionné avec Git et publié avec GitHub Pages.</p>
+        <p class="tech">HTML · CSS · Git · GitHub Pages</p>
+        <a href="https://github.com/RaouaaSilini/mon-cv" target="_blank" rel="noopener noreferrer">Voir le dépôt</a>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact et liens externes</h2>
+    <p class="lead">Une question, une proposition de stage ? Écrivez-moi.</p>
+    <a class="mail" href="mailto:raouaa.silini@gmail.com">raouaa.silini@gmail.com</a>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/raouaa-silini-31b107133/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="https://github.com/RaouaaSilini" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><a href="https://www.isetr.rnu.tn" target="_blank" rel="noopener noreferrer">ISET Radès</a></li>
+      <li><a href="tel:+21600000000">+216 00 000 000</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>© 2026 Raouaa Silini · Site statique hébergé sur GitHub Pages</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
